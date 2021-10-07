@@ -1,0 +1,32 @@
+.btn {
+    width: 90px;
+}
+.in {
+  width: 420px;
+}
+.errormsg {
+  width: 520px
+}
+.task {
+  width: 520px;
+  padding: 10px 20px;
+  margin-top: 10px
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    /* padding: 10px 170px; */
+    width: 100%;
+    top: 5px;
+  }
+  .in {
+    width: 100%;
+  }
+  .errormsg {
+    width: 100%
+  }
+  .task {
+    width: 100%;
+    margin-top: 12px;
+  }
+} 
